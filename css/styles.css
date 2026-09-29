@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter/static/Inter_18pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /*--primary-color: #3498db;*/
+  --font-main: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.container {
+  max-width: 60vw;
+  margin: 3rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-data{
+  height: 100%;
+  margin-left: 1rem;
+}
+
+.profile-data > * {
+  margin-bottom: 0.2rem;
+}
+
+.image-profile {
+  border-radius: 100px;
+}
+
+.profile-data .title {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #111111;
+}
+
+.profile-data .subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #555555;
+
+}
+
+.profile-data .web {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #555555;
+  background: #F6F6F6;
+  border-radius: 12px;
+  padding: 5px 10px 5px 10px;
+}
+
+.section{
+  margin-top: 3rem;
+}
+
+.section h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #111111;
+}
+
+.section .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #555555;
+
+}
+
+.work-experience {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.work-experience .date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #6D6D6D;
+}
+
+.work-experience .title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #111111;
+}
+
+.work-experience .location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  color: #555555;
+}
+
+.images-experience {
+   margin-top: 1.5rem;
+}
+
+.images-experience img{
+  margin-right: 0.6rem;
+}
