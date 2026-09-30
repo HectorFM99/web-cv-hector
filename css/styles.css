@@ -70,12 +70,14 @@ body {
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
-  margin: 5rem;
 }
 
 .container {
-  max-width: 60vw;
-  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem 1.5rem;
+  max-width: 40rem;
 }
 
 .profile {
@@ -84,12 +86,12 @@ body {
   align-items: center;
 }
 
-.profile-data{
+.profile-data {
   height: 100%;
   margin-left: 1rem;
 }
 
-.profile-data > * {
+.profile-data>* {
   margin-bottom: 0.2rem;
 }
 
@@ -124,7 +126,7 @@ body {
   padding: 5px 10px 5px 10px;
 }
 
-.section{
+.section {
   margin-top: 3rem;
 }
 
@@ -146,7 +148,7 @@ body {
 .work-experience {
   display: flex;
   flex-direction: row;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .work-experience .date {
@@ -154,6 +156,7 @@ body {
   font-size: 14px;
   line-height: 180%;
   color: #6D6D6D;
+  min-width: 7rem;
 }
 
 .work-experience .title {
@@ -161,6 +164,9 @@ body {
   font-size: 14px;
   line-height: 180%;
   color: #111111;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 65vw;
 }
 
 .work-experience .location {
@@ -171,9 +177,23 @@ body {
 }
 
 .images-experience {
-   margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.images-experience img{
+.images-experience {
+  margin-top: 1.5rem;
+}
+
+.images-experience img {
   margin-right: 0.6rem;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .images-experience {
+    flex-direction: row;
+  }
 }
