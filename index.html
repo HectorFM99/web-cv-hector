@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
@@ -12,53 +12,50 @@
     <div class="container">
         <header>
             <div class="profile">
-                <img class="image-profile"
-                    src="https://mince-sign-gig.figma.site/_assets/v11/76deebd71dfa75b5fe2bdd018e235e0c18b84040.png" /
-                    width="92" height="93" />
-                <div class="profile-data">
-                    <h1 class="title">Sara Lawrence</h1>
-                    <p class="subtitle">Design in San Francisco</p>
-                    <a class="web">website.com</a>
+                <img class="profile__image" alt="Sara Lawrence" src="./assets/images/image-profile.png" width="92" height="93">
+                <div class="profile__data">
+                    <h1 class="profile__name">Sara Lawrence</h1>
+                    <p class="profile__subtitle">Design in San Francisco</p>
+                    <a class="profile__website" href="https://website.com" target="_blank" rel="noopener noreferrer">website.com</a>
                 </div>
             </div>
         </header>
         <main>
             <section class="section">
-                <h3>About</h3>
-                <p class="description">
+                <h2 class="section__title">About</h2>
+                <p class="section__description">
                     I’m a passionate UX designer striving to create intuitive and engaging
                     experiences. I’m a big believer that things can always be simpler than
                     we think.
                 </p>
             </section>
             <section class="section">
-                <h3>Work Experience</h3>
-                <div class="work-experience">
-                    <div class="date">2017 — Now</div>
+                <h2 class="section__title">Work Experience</h2>
+                <article class="work-experience">
+                    <div class="date"><time datetime="2017">2017</time> — Now</div>
                     <div>
-                        <h4 class="title">Senior Designer at Magic Design Co Senior Designer at Magic Design Co Senior Designer at Magic Design Co Senior Designer at Magic Design Co&#8599;</h4>
+                        <h3 class="title">Senior Designer at Magic Design Co Senior Designer at Magic Design Co Senior
+                            Designer at Magic Design Co Senior Designer at Magic Design Co<span aria-hidden="true">↗</span></h3>
                         <p class="location">San Francisco, CA</p>
                     </div>
-                </div>
-                <div class="work-experience"><!--Experienda laboral -->
-                    <div class="date"><!--Fecha de la experienda laboral -->
-                        2015 — 2017</div>
-                    <div><!--Datos de la experienda laboral -->
-                        <h4 class="title">Junior Designer at Creative Co&#8599;</h4>
+                </article>
+                <article class="work-experience">
+                    <div class="date"><time datetime="2015">2015</time> — <time datetime="2017">2017</time></div>
+                    <div>
+                        <h3 class="title">Junior Designer at Creative Co<span aria-hidden="true">↗</span></h3>
                         <p class="location">Atlanta, GA</p>
-                        <div class="images-experience"><!--Imagenes -->
-                            <img src="https://mince-sign-gig.figma.site/_assets/v11/3bf08df9a3caf0f583c9f9bb6e51151dae083e0b.png?w=3584"
-                                width="150" height="90">
-                            <img src="https://mince-sign-gig.figma.site/_assets/v11/f84dae9ddd5f1f2235cdf9b74c83e3cafa57fd70.png?w=3584"
-                                width="150" height="90">
-                            <img src="https://mince-sign-gig.figma.site/_assets/v11/f73b89e6d2b2f05225dfac4e1291dee222e00f31.png?w=3584"
-                                width="150" height="90">
+                        <div class="images-experience">
+                            <img src="./assets/images/design.png"
+                                alt="Abstract 3D composition of colorful geometric shapes" width="150" height="90">
+                            <img src="./assets/images/design-photo.png"
+                                alt="Mobile app screens shown as layered, overlapping cards" width="150" height="90">
+                            <img src="./assets/images/design-screen.png"
+                                alt="Collection of mobile app screens for a magazine website" width="150" height="90">
                         </div>
                     </div>
-                </div>
+                </article>
             </section>
         </main>
-        <footer></footer>
     </div>
 </body>
 
