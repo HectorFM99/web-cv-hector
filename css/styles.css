@@ -166,7 +166,7 @@ body {
   margin-top: 1rem;
 }
 
-.work-experience .date {
+.work-experience__date {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.8;
@@ -179,7 +179,7 @@ body {
   min-width: 0;
 }
 
-.work-experience .title {
+.work-experience__title {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.8;
@@ -187,7 +187,7 @@ body {
   overflow-wrap: break-word;
 }
 
-.work-experience .location {
+.work-experience__location {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.8;
