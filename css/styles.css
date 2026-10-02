@@ -199,11 +199,22 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   margin-top: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .images-experience img {
   border: 1px solid var(--color-border);
   border-radius: 8px;
+  flex: 0 0 150px;
+  width: 150px;
+  height: 84px;
+  object-fit: cover;
+}
+
+.images-experience > div {
+  padding: 0.75rem 1rem 0.75rem 0;
 }
 
 @media (min-width: 480px) {
